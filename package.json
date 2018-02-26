@@ -1,0 +1,29 @@
+{
+  "name": "adonis-bundler",
+  "description": "Adonis assets pipeline with zero-configuration",
+  "keywords": [
+    "adonis",
+    "adonisjs",
+    "bundle",
+    "assets"
+  ],
+  "version": "1.0.0",
+  "author": "Romain Lanz <romain.lanz@slynova.ch>",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romainlanz/adonis-bundler"
+  },
+  "bugs": {
+    "url": "https://github.com/romainlanz/adonis-bundler/issues"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "parcel-bundler": "^1.6.2"
+  },
+  "devDependencies": {
+    "@adonisjs/ace": "^5.0.0",
+    "@adonisjs/fold": "^4.0.7"
+  }
+}
