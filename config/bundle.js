@@ -28,7 +28,7 @@ module.exports = {
   */
   discover: {
     path: Helpers.resourcesPath('assets'),
-    pattern: '**/app.*'
+    pattern: '*/app.*'
   },
 
   /*
