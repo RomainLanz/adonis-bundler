@@ -44,11 +44,11 @@ The bundler also check for `.babelrc`, `postcss.config.js` or whatever file your
 
 ## FAQ
 
-**I want to do X and I cannot do it with this package**
+**I want to do X and I cannot do it with this package**<br>
 You maybe want to do something that is out of the scope of this package. Don't worry, you aren't obligated to use it. This main goal of this package is to provide an easy way to compile assets for 90% of developper. Nothing keeps you from installing Webpack and doing a custom configuration.
 
-**Is ParcelJS's plugins working with this package**
+**Is ParcelJS's plugins working with this package**<br>
 YES!
 
-**How can I create an hash named compiled assets for production caching?**
+**How can I create an hash named compiled assets for production caching?**<br>
 Unfortunately, you cannot for the moment. [Some discussions are going on in ParcelJS repository](https://github.com/parcel-bundler/parcel/issues/872) and hopefully this will be possible soon.
