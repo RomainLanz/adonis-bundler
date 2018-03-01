@@ -47,6 +47,11 @@ class Bundle extends Command {
       files.push(...Config.get('bundle.customBundles'))
     }
 
+    if (files.length <= 0) {
+     this.warning('No file has been found to be bundled.')
+     this.warning('Please, verify your configuration.')
+    }
+
     files.forEach(async (file) => {
       const filePath = file.split('/')
       const fileName = filePath[filePath.length - 1]
