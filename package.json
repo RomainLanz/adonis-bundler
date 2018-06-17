@@ -23,7 +23,7 @@
     "parcel-bundler": "^1.8.1"
   },
   "devDependencies": {
-    "@adonisjs/ace": "^5.0.1",
+    "@adonisjs/ace": "^5.0.2",
     "@adonisjs/fold": "^4.0.8"
   }
 }
